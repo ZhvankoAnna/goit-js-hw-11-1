@@ -11,7 +11,7 @@ let imgArray = [];
 const formEl = document.querySelector('.search-form');
 
 formEl.addEventListener('submit', handleFormSubmit);
-window.addEventListener('scroll', debounce(handleWindowScroll, 300));
+window.addEventListener('scroll', debounce(handleWindowScroll, 500));
 
 async function handleFormSubmit(e) {
   e.preventDefault();
